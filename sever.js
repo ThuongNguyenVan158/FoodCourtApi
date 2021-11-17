@@ -13,7 +13,8 @@ app.use(cors());
 const publicPath = path.join(__dirname, "./public");
 app.use("/public", express.static(publicPath));
 app.use("/api/v1", rootRouter);
-app.listen(process.env.PORT || 3000, async () => {
+let port=process.env.PORT;
+app.listen(port || 3000, async () => {
   console.log("App listening on http://localhost:5000");
   try {
     await sequelize.authenticate();
