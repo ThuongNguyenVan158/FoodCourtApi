@@ -23,7 +23,8 @@
     "nodemon": "^2.0.13",
     "rand-token": "^1.0.1",
     "sequelize": "^6.7.0",
-    "tedious": "^14.0.0"
+    "tedious": "^14.0.0",
+    "babel-cli": "^6.6.5"
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
