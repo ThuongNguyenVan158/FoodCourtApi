@@ -27,6 +27,7 @@
     "nodemon": "^2.0.13",
     "rand-token": "^1.0.1",
     "sequelize": "^6.7.0",
+    "serve": "^13.0.2",
     "tedious": "^14.0.0"
   },
   "devDependencies": {
